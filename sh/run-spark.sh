@@ -3,7 +3,7 @@
 # 실행 커맨드 = sh run-spark.sh $SPARK_HOME
 
 # SPARK_HOME 디렉토리 가져오기
-SPARK_HOME=$1
+SPARK_HOME="$1"
 
 # master 실행
 $SPARK_HOME/sbin/start-master.sh
